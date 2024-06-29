@@ -1,0 +1,101 @@
+body {
+    background-color: orange;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+header {
+    background-color: #ff6600;
+    padding: 0px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    color: white;
+    padding: 30px;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+}
+
+.main-container {
+    display: flex;
+    height: calc(100vh - 60px);
+}
+
+.sidebar {
+    width: 25%;
+    background-color: #d2b48c;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 100%;
+    overflow: auto;
+}
+
+.about-section {
+    text-align: center; /* Center the content inside the div */
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 60px; /* Adjusted to be slightly smaller */
+    height: auto;
+    margin-right: 20px;
+}
+
+.about-title {
+    font-family: 'Arial Rounded MT Bold', Arial, sans-serif;
+    color: #cc3300;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block; /* Make the background fit only the text */
+    margin: 0;
+    margin-left: 20px; /* Adjust margin-left to move it to the right */
+}
+
+.about-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #663300;
+}
+
+.about-list li {
+    margin: 10px 0;
+}
+
+.content {
+    width: 75%;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #b1690b;
+    border-radius: 8px;
+    display: inline-block;
+    width: 100%;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
